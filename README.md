@@ -19,43 +19,44 @@ Order of execution of files
 
 Explanation:
 
-1)sentianalysis.R
+# 1)sentianalysis.R
 
 Authentication into twitter to get data
 
-2)scoresentiment.R
+# 2)scoresentiment.R
 
 Gets tweets,removes punctuation,decimals etc and stores the words in a list,which is then changed to a character vector and later to a dataframe. It finally returns a dataframe.
 
-3)word_database.R
+# 3)word_database.R
 
 Gets the positive and negative words from the text file
 
-4)cleaning_tweet.R
+# 4)cleaning_tweet.R
 
 Cleans the data by removing emoticons and URLs.
 
-5)check.R
+# 5)check.R
 
 Checks each tweet for the number of positive and negative words and hence gives it a sentiment score
 
-6)userhashtags.R
+# 6)userhashtags.R
 
 Stores the indices of the tweets which have hashes, the actual hashtags, and their frequencies. The dataframe is then reordered in decreasing order.
 
-7)findpercent.R
+# 7)findpercent.R
 
 Finding percentage of positive and negative tweets
 
-8)graph.R
+# 8)graph.R
 
 Plots histogram and 3D pi-chart for the iven range of sentiments
 
-9)toptrends.R
+# 9)toptrends.R
 
 Finds the top treding tweets in the given context
 
-10)wordcloud.R
+# 10)wordcloud.R
+
 plots word cloud for the given topic
 
 
